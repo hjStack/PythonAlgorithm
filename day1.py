@@ -1,7 +1,7 @@
 
 
 
-# print('Hello World!')
+# print('Hello World!').....
 
 # 파이썬에서 입력받기
 # 파이썬에서 입력받을때는 input()사용
