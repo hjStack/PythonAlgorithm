@@ -1,6 +1,4 @@
 
-
-
 # print('Hello World!').....
 
 # 파이썬에서 입력받기
@@ -25,9 +23,13 @@
 
 
 # 사칙 연산 총집합
-num3,num4=map(int,input().split())
-print(num3+num4)
-print(num3-num4)
-print(num3*num4)
-print('%d' %(num3/num4))
-print(num3%num4)
+# num3,num4=map(int,input().split())
+# print(num3+num4)
+# print(num3-num4)
+# print(num3*num4)
+# print('%d' %(num3/num4))
+# print(num3%num4)
+
+# 파이썬 f-string
+text=input('')
+print(f'{text}??!')
