@@ -45,4 +45,15 @@
 # print(ma)
 # print(numbers.index(ma)+1)  # 특정 숫자 인덱스 찾기
 
+# 백준 - 5597
+student=[i for i in range(1,31)]
 
+for i in range(28):
+    num=int(input())
+    student.remove(num)
+    
+for a in range(len(student)):
+    print(student[a])
+    
+# 30명의 학생 리스트를 만들고 제출한 학생수를 제거하고 남은 2명은 제출하지 않은 것이므로 
+# 2명의 인덱스를 처음부터 출력
