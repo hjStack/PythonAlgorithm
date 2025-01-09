@@ -64,7 +64,7 @@
 # print(median)
 
 
-# 백준 - 1427
+# 백준 - 1427 : 내림차순 정렬
 n=int(input())
 
 result=[]
@@ -74,7 +74,7 @@ while n>0:
     n //= 10
 
 for j in range(len(result)):
-    for k in range(len(result)-j-1):
+    for k in range(len(result)-j-1):  
         if result[k]<result[k+1]:
             result[k],result[k+1]=result[k+1],result[k]
             
