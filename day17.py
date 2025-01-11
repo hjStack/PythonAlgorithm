@@ -1,15 +1,27 @@
 
-# 백준 - 10798 ... 
+# 백준 - 10798
+result=[]
 
-# for i in range(5):
-#     n=input()
+# 숫자를 저장할 리스트를 선언해서 리스트에 붙이고 
+for i in range(5):
+    n=input()
+    result.append(n)
     
-# result=[]
-# new = ''
-    
-# for i in range(5):
-#     for j in range(5):
-#         result.append(n)
+# 새로 저장할 문자열의 변수를 만듦
+output=""
+
+maxlen = max(len(word) for word in result)
+# print(maxlen)
+
+for i in range(maxlen):
+    for j in range(5):
+        if i<len(result[j]):
+            output+=result[j][i]
+            
+print(output)
+
+ 
+        
         
 # 백준 - 27323
 
