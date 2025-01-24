@@ -49,9 +49,38 @@
 # print(count)
 # print(2)
 
-# 시간 복잡도4 - o(n ** 2 - n)
+# 시간 복잡도4
 
+# n=int(input())
+# print(int(n*(n-1) -(n-1)*n/2))
+
+# print(2)
+
+# 시간 복잡도5 - o(n^^3)
+
+# count =0
+
+# n=int(input())
+# count +=(pow(n,2)*n)
+
+# print(count)
+# print(2)
+
+# n=int(input())
+# print((n-2) * (n-1) * n // 6) #  ∑(k(k + 1) / 2)이고 전체 식을 풀어서 정리하면 n(n - 1)(n - 2) / 6
+# print(3)
+
+# ================================================
+
+# 점근적 표기 
+a,b=list(map(int,input().split()))
+g=int(input())
 n=int(input())
-print(int(n*(n-1) -(n-1)*n/2))
 
-print(2)
+if (a*n + b <= g*n and a<=g):
+    #  모든 n ≥ n0에 대하여 g(n)이 f(n)보다 크거나 같아야 하는데
+    # 둘다 1차함수로 생각하면 f(n)의 기울기 = a 가 g(n)의 기울기 = c 보다 크게 되면 언젠가 f(n)이 더 커질 수밖에 없기 때문에
+    # 기울기 c >= a 가 되어야 합니다.
+    print(1)
+else:
+    print(0)
